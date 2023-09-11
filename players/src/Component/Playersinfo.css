@@ -1,0 +1,95 @@
+/* Playersinfo.css */
+
+/* Styles for the entire player information component */
+.Playerinfo {
+    background-color: #373434;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for the heading */
+.Playerinfo h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* Styles for the player list container */
+.players-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for each player's container */
+.player-item {
+    width: calc(33.33% - 20px);
+    margin: 0 auto 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover effect for player containers */
+.player-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for player images */
+.player-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styles for player details */
+.player-details {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for player names */
+.player-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styles for player birth details */
+.player-birth {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+/* Styles for first and last team details */
+.player-teams {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Styles for total goals */
+.player-goals {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Add a subtle shadow to the entire player info component */
+.Playerinfo {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
